@@ -19,21 +19,12 @@ body {
 /*-----------------------------Heading*/
 
 #logo {
-height: 70px;
-width: 70px;
-}
-
-.img-rounded {
-    width: 40px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 60%;
-    font-size: 13px;
-    line-height: 7px;
+    height: 50px;
+    width: 70px;
 }
 
 #nav {
-    background : none;
+    background: none;
     float: right;
     font-size: 1.125em;
     margin-right: 5%;
@@ -56,24 +47,95 @@ width: 70px;
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .navbar-toggler-icon {
+    border: none;
+    float: right;
+    background-color: #964433;
 }
 
 .navbar-nav li a {
-color: black !important;
+    color: black !important;
 }
 
 .navbar-nav a:hover {
     color: #964433 !important;
 }
 
+/*----Page Headers-----*/
 
-/* Block Dividers*/
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.services .page-header,
+.portfolio  .page-header,
+.about  .page-header,
+.prices  .page-header,
+.reviews  .page-header,
+.contact  .page-header {
+    margin-bottom: 20px;
+}
+
+/*---Container----*/
+
+.content-container {
+    padding-top: 20px;
+    padding-bottom: 75px;
+    padding left: 100px;
+}
 
 
-.block-divider--orange {}
+/*----------Media Queries
 
-.block-divider--short {}
+@media (min-width: 992px) {
+    .navbar-header {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 
+    }
+}
+*/
+
+/*-------Services----*/
+
+.img-circle {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.container-wrapper {}
+
+.container-wrapper--white {
+    background-color: #ffffff;
+}
+
+.container-wrapper--brown {
+    background-color: #bb9228ad;
+}
+
+.services i {
+    margin-bottom: 20px;
+}
+
+
+
+.reviews {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
 .services-container {}
 
 .portfolio-container {}

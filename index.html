@@ -14,86 +14,83 @@
 
 <body>
     <div class="container-fluid navalert-container">
-        <nav class="navbar navbar-expand-lg navbar-dark scrolling-top">
-            <a href="#" class="navbar-brand"><img id="logo" src="assets/images/logo.png"></a>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <a href="#" class="navbar-brand"><img id="logo" src="assets/images/logo.png" alt="logo"></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul id="nav" class="navbar-nav">
                     <li class="nav-item active mr-2">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Prices</a>
+                        <a class="nav-link" href="#prices">Prices</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reviews</a>
+                        <a class="nav-link" href="#reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <!----Callout---->
+    <!-- Callout -->
     <div class="container-fluid callout-container">
         <div class="row">
             <div class="col-12">
-                <!-- <section class="callout jumbotron">
-                </section> -->
             </div>
         </div>
     </div>
-    <!----/.Callout---->
+    <!-- Callout -->
 
-    <!--- Services ---->
+    <!-- Services -->
     <div class="container-wrapper container-wrapper--brown">
         <div class="container services-container content-container">
             <section class="services">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Services.</h2>
+                        <h2 class="text-uppercase font-weight-bold"  id="services">Services</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <img src="assets/images/makeupicon.png " class="img-circle " alt="Makeup" width="100 " height="100 ">
-                        <p>Makeup</p>
+                    <div class="img-with-text col-12 col-md-6 col-lg-4">
+                        <a href="#" data-toggle="collapse" data-target="#Makeup"><img src="assets/images/makeupicon.png" width="100px" height="100px"></a>
+                        <p class="font-weight-bold">Makeup</p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 ">
-                        <img src="assets/images/hairstyle.png " class="img-circle " alt="Hair" width="100 " height="100 ">
-                        <p>Hair</p>
-
+                    <div class="img-with-text col-12 col-md-6 col-lg-4 ">
+                        <a href="#" data-toggle="collapse" data-target="#Hair"><img src="assets/images/hairstyle.png" width="100px" height="100px"></a>
+                        <p class="font-weight-bold">Bridal Hair</p>
                     </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4 ">
-                        <img id="icon" src="assets/images/diploma.png " class="img-circle " alt="Certified" width="100 " height="100 ">
-                        <p>Training</p>
+                    <div class=" img-with-text col-12 d-md-none d-lg-block col-lg-4 ">
+                        <a href="#" data-toggle="collapse" data-target="#Training"><img src="assets/images/diploma.png" width="100px" height="100px"></a>
+                        <p class="font-weight-bold">Training</p>
                     </div>
                 </div>
             </section>
         </div>
     </div>
-    <!----/.Services---->
+    <!-- Services -->
 
-    <!--- Portfolio ---->
+    <!-- Portfolio -->
     <div class="container-wrapper container-wrapper--white">
         <div class="container portfolio-container content-container">
             <section class="portfolio ">
                 <div class="row ">
                     <div class="col-12 page-header ">
-                        <h2 class="text-uppercase ">Portfolio.</h2>
+                        <h2 class="text-uppercase font-weight-bold" id="portfolio">Portfolio</h2>
                     </div>
                 </div>
                 <div class="row ">
@@ -102,15 +99,15 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 ">
-                        <div class="portfolio "><img src="assets/images/steph.jpeg" alt="Image" width="100%">
+                        <div class="portfolio "><img src="assets/images/Janet.png" alt="Image" width="100%">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="portfolio "><img src="assets/images/melaninwonder.jpg" alt="Image" width="100%">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 ">
                         <div class="portfolio "><img src="assets/images/steph2.jpeg" alt="Image" width="100%">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 ">
-                        <div class="portfolio "><img src="assets/images/model4.jpeg" alt="Image" width="100%">
                         </div>
                     </div>
                 </div>
@@ -118,15 +115,15 @@
 
         </div>
     </div>
-    <!----/.portfolio---->
+    <!-- Portfolio -->
 
-    <!---- About ---->
+    <!-- About -->
     <div class="container-wrapper container-wrapper--brown">
         <div class="container about-container content-container">
             <section class="about ">
                 <div class="row ">
                     <div class="col-12 page-header ">
-                        <h2 class="text-uppercase ">About.</h2>
+                        <h2 class="text-uppercase font-weight-bold" id="about">About</h2>
                     </div>
                 </div>
 
@@ -134,58 +131,57 @@
                     <div class="col-12 ">
                         <div class="about ">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                                ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-                                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam;
-                                est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
-                                Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-                                in futurum.
-                            </p>
+                                R'Beauty is a make up artist based in Amsterdam, The Netherlands. She is a consumate professional, talented, reliable and enthusiastic about
+                                hairdressing and makeup. R'Beauty offers all of her services at her studio including hairstyles and makeup lessons, and also travels to clients 
+                                through out The Netherlands as required.</p> 
+
+                                <p>R'Beauty works on beautiful weddings, commercial shoots, special occasions, corporate events and can always work with multiple clients as 
+                                when needed. </p>
+                            
                         </div>
                     </div>
                 </div>
             </section>
         </div>
     </div>
-    <!----/.About ---->
+    <!-- About -->
 
-    <!---- Prices ---->
+    <!-- Prices -->
     <div class="container-wrapper container-wrapper--white">
         <div class="container prices-container content-container">
             <section class="prices ">
                 <div class="row ">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase ">Prices.</h2>
+                        <h2 class="text-uppercase font-weight-bold" id="prices">Prices</h2>
                     </div>
                 </div>
-
                 <div class="row ">
                     <div class="col-12 ">
                         <div class="prices ">
                             <div class="d-flex flex-column ">
-                               <!-- <div class="p-2 ">Bridal Make up ........................................................................................................................................................................................................ €225</div>
+                                <div class="p-2 ">Bridal Make up ........................................................................................................................................................................................................ €225</div>
                                 <div class="p-2 ">Bridal hair ..................................................................................................................................................................................................................
                                     €225
                                 </div>
                                 <div class="p-2 ">Bridal Basic ...............................................................................................................................................................................................................
                                     €300
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
     </div>
-    <!----/.Prices ---->
+    <!-- Prices -->
 
-    <!---- Reviews ---->
+    <!-- Reviews -->
     <div class="container-wrapper container-wrapper--brown">
         <div class="container reviews-container content-container">
             <section class="reviews ">
                 <div class="row ">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase ">Reviews.</h2>
+                        <h2 class="text-uppercase font-weight-bold" id="reviews">Reviews</h2>
                     </div>
                 </div>
                 <div class="row ">
@@ -196,15 +192,10 @@
                             <span class="fas fa-star"></span>
                             <span class="fas fa-star"></span>
                             <span class="far fa-star"></span>
-                            <p class="font-italic text-justify">I recently booked R'Beauty for my company Melanin Wonder. 
-                            We had a big team for a photoshoot for one of the signature faces of our brand, the only thing 
-                            missing was a MUA. Many Make-Up artists we've worked with have not been able to do well on 
-                            people of color(foundation etc.). R'Beauty on the other hand does all shades and races but is 
-                            particularly good at making people of color glow without making them look cakey. 
-                            Her make-up looks photograph well on a professional level. Our model looked amazingly beautified, 
-                            like you are actually enhancing the beauty they already have. That is what you need!! 
-                            Her light-weighted hand and artistic craft to make people look 'extra' good naturally is simply amazing. 
-                            I would definitely recommend her to everyone!</p>
+                            <p class="font-italic text-justify">I recently booked R'Beauty for my company Melanin Wonder. We had a big team for a photoshoot for one of the signature faces of our brand, the only thing missing was a MUA. Many Make-Up artists we've worked with have not been
+                                able to do well on people of color(foundation etc.). R'Beauty on the other hand does all shades and races but is particularly good at making people of color glow without making them look cakey. Her make-up looks photograph
+                                well on a professional level. Our model looked amazingly beautified, like you are actually enhancing the beauty they already have. That is what you need!! Her light-weighted hand and artistic craft to make people look 'extra'
+                                good naturally is simply amazing. I would definitely recommend her to everyone!</p>
                             <h6 class="font-weight-bold">Janet</h6>
                         </div>
                     </div>
@@ -215,15 +206,19 @@
                             <span class="fas fa-star"></span>
                             <span class="fas fa-star"></span>
                             <span class="far fa-star"></span>
-                            <p class="font-italic text-justify">I recently booked R'Beauty for my company Melanin Wonder. 
-                            We had a big team for a photoshoot for one of the signature faces of our brand, the only thing 
-                            missing was a MUA. Many Make-Up artists we've worked with have not been able to do well on 
-                            people of color(foundation etc.). R'Beauty on the other hand does all shades and races but is 
-                            particularly good at making people of color glow without making them look cakey. 
-                            Her make-up looks photograph well on a professional level. Our model looked amazingly beautified, 
-                            like you are actually enhancing the beauty they already have. That is what you need!! 
-                            Her light-weighted hand and artistic craft to make people look 'extra' good naturally is simply amazing. 
+                            <p class="font-italic text-justify">I'm not the type to wear makeup, 
+                            but it was my first time on stage singing for the Lord and I wanted to look my best. 
+                            So I decided to contact R'beauty for her makeupservices. 
+                            Once she started I was really scared for the outcome, 
+                            I just didnt want to look too doll'ish and still look like me. 
+                            The makeupartist calmed me down and kept assuring me that it'll come out looking really natural. 
+                            Well, once we were done I was completely in shock. 
+                            When I took a look in the mirror is couldn't believe my eyes. 
+                            I looked so healthy, fresh, energized and beautifull. 
+                            It boosted my confidence and made me feel like a dime. 
+                            Now I know exactly who I will book for my weddingday!
                             I would definitely recommend her to everyone!
+                            She is the best Make up artist I have ever used.
                             </p>
                             <h6 class="font-weight-bold">Helen</h6>
                         </div>
@@ -235,15 +230,10 @@
                             <span class="fas fa-star"></span>
                             <span class="fas fa-star"></span>
                             <span class="fas fa-star"></span>
-                            <p class="font-italic text-justify">I recently booked R'Beauty for my company Melanin Wonder. 
-                            We had a big team for a photoshoot for one of the signature faces of our brand, the only thing 
-                            missing was a MUA. Many Make-Up artists we've worked with have not been able to do well on 
-                            people of color(foundation etc.). R'Beauty on the other hand does all shades and races but is 
-                            particularly good at making people of color glow without making them look cakey. 
-                            Her make-up looks photograph well on a professional level. Our model looked amazingly beautified, 
-                            like you are actually enhancing the beauty they already have. That is what you need!! 
-                            Her light-weighted hand and artistic craft to make people look 'extra' good naturally is simply amazing. 
-                            I would definitely recommend her to everyone!
+                            <p class="font-italic text-justify">I recently booked R'Beauty for my company Melanin Wonder. We had a big team for a photoshoot for one of the signature faces of our brand, the only thing missing was a MUA. Many Make-Up artists we've worked with have not been
+                                able to do well on people of color(foundation etc.). R'Beauty on the other hand does all shades and races but is particularly good at making people of color glow without making them look cakey. Her make-up looks photograph
+                                well on a professional level. Our model looked amazingly beautified, like you are actually enhancing the beauty they already have. That is what you need!! Her light-weighted hand and artistic craft to make people look 'extra'
+                                good naturally is simply amazing. I would definitely recommend her to everyone!
                             </p>
                             <h6 class="font-weight-bold">Mike</h6>
                         </div>
@@ -253,15 +243,15 @@
 
         </div>
     </div>
-    <!---- /.Reviews ---->
+    <!--  Reviews -->
 
-    <!---- Contact ---->
+    <!-- Contact -->
     <div class="container-wrapper container-wrapper--white">
         <div class="container contact-container content-container">
             <section class="contact ">
                 <div class="row ">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase ">Contact.</h2>
+                        <h2 class="text-uppercase font-weight-bold" id="contact">Contact</h2>
                     </div>
                 </div>
 
@@ -312,7 +302,7 @@
             </section>
         </div>
     </div>
-    <!----/.Contact ---->
+    <!-- Contact -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>

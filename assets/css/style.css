@@ -9,12 +9,21 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100% 100%;
-    background-origin: content-box;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+/*--Media Queries--*/
+
+@media only screen and (max-width: 767px) {
+    body {
+        background: url("../images/banner.jpg");
+    }
+}
+
 
 /*-----------------------------Heading*/
 
@@ -33,6 +42,10 @@ body {
 
 }
 
+.bg-light {
+    background-color: #ffffffff!important;
+}
+
 /*-----------Navbar*/
 
 .navalert-container {
@@ -47,7 +60,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, .25);
 }
 
 .navbar .navbar-toggler-icon {
@@ -76,13 +89,16 @@ body {
     margin-top: 0;
 }
 
-.services .page-header,
 .portfolio  .page-header,
 .about  .page-header,
 .prices  .page-header,
 .reviews  .page-header,
 .contact  .page-header {
     margin-bottom: 20px;
+}
+
+.services .page-header {
+    margin-bottom: 30px;
 }
 
 /*---Container----*/
@@ -113,6 +129,16 @@ body {
     padding-left: 20px;
 }
 
+.img-with-text {
+    text-align: center;
+    width: 512px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
 .container-wrapper {}
 
 .container-wrapper--white {
@@ -123,18 +149,17 @@ body {
     background-color: #bb9228ad;
 }
 
-.services i {
-    margin-bottom: 20px;
-}
-
-
-
 .reviews {
     text-align: center;
     margin-bottom: 40px;
 
 }
 
+
+/*.services i {
+    margin-bottom: 20px;
+    margin-top: 100px;
+}*/
 
 .services-container {}
 

@@ -230,6 +230,12 @@ a {
 
 a:hover {
     color: #a3613e;
+}
+
+/*--Table--*/
+.table-hover {
+    background-color: #a3613e;
+}
 
 .services-container {}
 
@@ -237,6 +243,8 @@ a:hover {
 
 .about-container {}
 
-.prices-container .reviews-container {}
+.prices-container 
+
+.reviews-container {}
 
 .contact-container {}

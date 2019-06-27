@@ -8,20 +8,24 @@ R'Beauty works on beautiful weddings, commercial shoots, special occasions, corp
 when needed. 
 
 # UX
-
-BACKGROUND:
-
 Basically, the website is for my girlfriend. She's a student in The Netherlands and she does make up services as a part time job.
 Currently, her online presence is only on Instagram and on facebook. She feels that for her business to get proper exposure, she needs to 
-have a website. SO in essence, she needs a website in order to boost her online presence and also to have a web presence which hitherto, 
+have a website. So in essence, she needs a website in order to boost her online presence and also to have a web presence which hitherto, 
 was missing. 
+This project is going to provide the layout for her website when it gets hosted eventually. This project isn't just to be graded but 
+the goal is fot it to be hosted and actually be the official website for my girlfriend.
+
 I personally feel that by buildong a website for my girlfriend, it would boost her business image online and also attract more customers.
 
 
-# REQUIREMENTS
+## Wireframe ##
 You can find the link to the wireframe here: 
-https://1drv.ms/w/s!AqARRU4jO5elrGuPVFHl-wEg-BBK?e=ng42BX
+<https://1drv.ms/w/s!AqARRU4jO5elrGuPVFHl-wEg-BBK?e=ng42BX>
 
+
+## User Stories ##
+
+*As a customer
 
 
 # Features

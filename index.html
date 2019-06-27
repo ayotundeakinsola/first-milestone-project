@@ -3,13 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> R'Beauty - Official Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <title> R'Beauty - Official Website</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #home {
+            height: 600px;
+        }
+
+        #services {
+            height: 50px;
+        }
+
+        #portfolio {
+            height: 50px;
+        }
+
+        #about {
+            height: 50px;
+        }
+
+        #prices {
+            height: 50px;
+        }
+
+        #reviews {
+            height: 50px;
+        }
+
+        #contact {
+            height: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,7 +81,7 @@
     </div>
     <!-- Callout -->
     <div class="container-fluid callout-container">
-        <div class="row">
+        <div class="row" id="home">
             <div class="col-12">
             </div>
         </div>
@@ -67,15 +99,15 @@
                 </div>
                 <div class="row">
                     <div class="img-with-text col-12 col-md-6 col-lg-4">
-                        <a href="#" data-toggle="collapse" data-target="#Makeup"><img src="assets/images/makeupicon.png" width="100px" height="100px"></a>
+                        <img src="assets/images/makeupicon.png" alt="makeupicon" height="100" width="100">
                         <p class="font-weight-bold">Makeup</p>
                     </div>
                     <div class="img-with-text col-12 col-md-6 col-lg-4 ">
-                        <a href="#" data-toggle="collapse" data-target="#Hair"><img src="assets/images/hairstyle.png" width="100px" height="100px"></a>
+                        <img src="assets/images/hairstyle.png" alt="hairstyle" height="100" width="100">
                         <p class="font-weight-bold">Bridal Hair</p>
                     </div>
                     <div class=" img-with-text col-12 d-md-none d-lg-block col-lg-4 ">
-                        <a href="#" data-toggle="collapse" data-target="#Training"><img src="assets/images/diploma.png" width="100px" height="100px"></a>
+                        <img src="assets/images/diploma.png" alt="diploma" height="100" width="100">
                         <p class="font-weight-bold">Training</p>
                     </div>
                 </div>
@@ -95,19 +127,19 @@
                 </div>
                 <div class="row ">
                     <div class="col-12 col-md-6 ">
-                        <div class="portfolio "><img src="assets/images/model3.jpeg" alt="Image" width="100%">
+                        <div class="portfolio "><img src="assets/images/model3.jpeg" alt="Image" height="500" width="500" style="padding-bottom: 20px;">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 ">
-                        <div class="portfolio "><img src="assets/images/ring.jpg" alt="Image" width="100%">
+                        <div class="portfolio "><img src="assets/images/ring.jpg" alt="Image" height="500" width="500" style="padding-bottom: 20px;">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 ">
-                        <div class="portfolio "><img src="assets/images/melaninwonder.jpg" alt="Image" width="100%">
+                        <div class="portfolio "><img src="assets/images/background2.jpeg" alt="Image" height="500" width="600" style="padding-right: 60px;">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 ">
-                        <div class="portfolio "><img src="assets/images/Janet.png" alt="Image" width="100%">
+                        <div class="portfolio "><img src="assets/images/Janet.png" alt="Image" height="500" width="500">
                         </div>
                     </div>
                 </div>
@@ -131,9 +163,9 @@
                     <div class="col-12 ">
                         <div class="about ">
                             <p>
-                                Over the years society has created harsh opinions about what one should look like. This is in many cases is the root of insecurity of individuals. It causes them to feel asif they do not fit in or aren 't beautiful enough. This matter also occurs in Holland.
-                                Individuals are struggling with society’s opinion. When they put a lot of effort in looking their best they still tend to get the anxiety of being different than others and it affects their their confidence. </p>
-                            <p>R’Beauty’s mission is to showcase the beauty in uniqueness. R’Beautify aims to stimulate confidence by taking the customers facial characteristics and enhancing hem. This allows the customer to accept their unique beauty and
+                                Over the years society has created harsh opinions about what one should look like. This is in many cases is the root of insecurity of individuals. It causes them to feel as if they do not fit in or aren 't beautiful enough. This matter also occurs in
+                                Holland. Individuals are struggling with society’s opinion. When they put a lot of effort in looking their best they still tend to get the anxiety of being different than others and it affects their confidence. </p>
+                            <p>R’Beauty’s mission is to showcase the beauty in uniqueness. R’Beautify aims to stimulate confidence by taking the customers facial characteristics and enhancing them. This allows the customer to accept their unique beauty and
                                 feel confident in their skin.</p>
                             <p>My Name is Ruth Dara and I am the owner of R'Beauty. I am a business and HR graduate and a selfthought makeup artist. I live in Amsterdam and have been in de makeupartistry for over 5 years. My motto is "to elevate and enhance".
                                 I love bringing out the unique characteristics that my customers already possess.</p>
@@ -179,6 +211,11 @@
                             <td colspan="1">Bridal Basic</td>
                             <td>€395</td>
                         </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td colspan="1">Make up Training</td>
+                            <td>€600</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -204,9 +241,10 @@
                             <span class="fas fa-star"></span>
                             <span class="far fa-star"></span>
                             <p class="font-italic text-justify">I recently booked R'Beauty for my company Melanin Wonder. We had a big team for a photoshoot for one of the signature faces of our brand, the only thing missing was a MUA. Many Make-Up artists we've worked with have not been
-                                able to do well on people of color(foundation etc.). R'Beauty on the other hand does all shades and races but is particularly good at making people of color glow without making them look cakey. Her make-up looks photograph
-                                well on a professional level. Our model looked amazingly beautified, like you are actually enhancing the beauty they already have. That is what you need!! Her light-weighted hand and artistic craft to make people look 'extra'
-                                good naturally is simply amazing. I would definitely recommend her to everyone!</p>
+                                able to do well on people of color(foundation etc.).</p>
+                            <p class="font-italic text-justify">R'Beauty on the other hand does all shades and races but is particularly good at making people of color glow without making them look cakey. Her make-up looks photograph well on a professional level. Our model looked amazingly
+                                beautified, like you are actually enhancing the beauty they already have. That is what you need!!</p>
+                            <p class="font-italic text-justify">Her light-weighted hand and artistic craft to make people look 'extra' good naturally is simply amazing. I would definitely recommend her to everyone!</p>
                             <h6 class="font-weight-bold">Janet</h6>
                         </div>
                     </div>
@@ -218,10 +256,11 @@
                             <span class="fas fa-star"></span>
                             <span class="far fa-star"></span>
                             <p class="font-italic text-justify">I'm not the type to wear makeup, but it was my first time on stage singing for the Lord and I wanted to look my best. So I decided to contact R'beauty for her makeupservices. Once she started I was really scared for the outcome,
-                                I just didnt want to look too doll'ish and still look like me. The makeupartist calmed me down and kept assuring me that it'll come out looking really natural. Well, once we were done I was completely in shock. When I took
-                                a look in the mirror is couldn't believe my eyes. I looked so healthy, fresh, energized and beautifull. It boosted my confidence and made me feel like a dime. Now I know exactly who I will book for my weddingday! I would
-                                definitely recommend her to everyone! She is the best Make up artist I have ever used.
-                            </p>
+                                I just didnt want to look too doll'ish and still look like me. </p>
+                            <p class="font-italic text-justify">The makeupartist calmed me down and kept assuring me that it'll come out looking really natural. Well, once we were done I was completely in shock. When I took a look in the mirror is couldn't believe my eyes. I looked so healthy,
+                                fresh, energized and beautifull. It boosted my confidence and made me feel like a dime.</p>
+                            <p class="font-italic text-justify"> Now I know exactly who I will book for my weddingday! I would definitely recommend her to everyone! She is the best Make up artist I have ever used.</p>
+
                             <h6 class="font-weight-bold">Helen</h6>
                         </div>
                     </div>
@@ -233,10 +272,11 @@
                             <span class="fas fa-star"></span>
                             <span class="fas fa-star"></span>
                             <p class="font-italic text-justify">On our special day my wife to be went for makeup. I was sad to see that she was about to cover herself in makeup because is just think she is gorgeous without makeup. But the moment she walked down the isle I saw my wife, looking
-                                as stunning as she always is. She looked like a pearl and was glowing like an angel. She looked so natural that I didn’t realise that she had makeup on. Her beauty was just shining through it. R’Beauty stayed around from
-                                morning till the end of the reception to make sure my wife’s makeup looked flawless throughout the wedding. At the last moment of the reception I took a moment to thank R’Beauty for her services before she took of. She
-                                did an amazing job
-                            </p>
+                                as stunning as she always is. </p>
+                            <p class="font-italic text-justify">She looked like a pearl and was glowing like an angel. She looked so natural that I didn’t realise that she had makeup on. Her beauty was just shining through it. R’Beauty stayed around from morning till the end of the reception
+                                to make sure my wife’s makeup looked flawless throughout the wedding.</p>
+                            <p class="font-italic text-justify"> At the last moment of the reception I took a moment to thank R’Beauty for her services before she took of. She did an amazing job and I would always recommend her to my friends. She's good!</p>
+
                             <h6 class="font-weight-bold">Mike</h6>
                         </div>
                     </div>
@@ -262,13 +302,9 @@
                         <div class="contact ">
                             <form>
                                 <div class="form-row ">
-                                    <div class="form-group col-md-6 ">
-                                        <label for="inputEmail4 ">Email</label>
-                                        <input type="email " class="form-control " id="inputEmail4 " placeholder="Email ">
-                                    </div>
-                                    <div class="form-group col-md-6 ">
-                                        <label for="inputPassword4 ">Password</label>
-                                        <input type="password " class="form-control " id="inputPassword4 " placeholder="Password ">
+                                    <div class="form-group col-md-12 ">
+                                        <label for="email">Email</label>
+                                        <input type="email " class="form-control " id="email" placeholder="email ">
                                     </div>
                                 </div>
                                 <div class="form-group ">
@@ -285,10 +321,21 @@
                                         <input type="text " class="form-control " id="inputCity ">
                                     </div>
                                     <div class="form-group col-md-4 ">
-                                        <label for="inputState ">State</label>
+                                        <label for="inputState ">Province</label>
                                         <select id="inputState " class="form-control ">
                                         <option selected>Choose...</option>
-                                            <option>...</option>
+                                            <option>Drenthe</option>
+                                            <option>Flevoland</option>
+                                            <option> Friesland</option>
+                                            <option>Gelderland</option>
+                                            <option> Groningen</option>
+                                            <option>Limburg</option>
+                                            <option>North Brabant</option>
+                                            <option>North Holland</option>
+                                            <option>Overijssel</option>
+                                            <option>South Holland</option>
+                                             <option>Utrecht</option>
+                                              <option>Zeeland</option>
                                     </select>
                                     </div>
                                     <div class="form-group col-md-2 ">
@@ -327,25 +374,25 @@
                 <h5 class="uppercase general-sub font-weight-bold">SOCIAL MEDIA</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i class="fab fa-facebook-f fa-lg white-text mr-4" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i class="fab fa-twitter fa-lg white-text mr-4" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i class="fab fa-youtube fa-lg white-text mr-4" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a href="#">
                             <i class="fab fa-instagram fa-lg white-text mr-4" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
@@ -357,9 +404,9 @@
     </footer>
 
     <!-- Contact -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

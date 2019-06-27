@@ -101,6 +101,14 @@ body {
     margin-bottom: 30px;
 }
 
+/*---Container----*/
+
+.content-container {
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+
 /*----------Media Queries
 
 @media (min-width: 992px) {
@@ -154,25 +162,75 @@ body {
 
 /*--Buttons--*/
 .btn-custom {
-  background-color: hsl(36, 79%, 25%) !important;
+  background-color: hsl(21, 45%, 44%) !important;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ebaf56", endColorstr="#72490d");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#ebaf56), to(#72490d));
-  background-image: -moz-linear-gradient(top, #ebaf56, #72490d);
-  background-image: -ms-linear-gradient(top, #ebaf56, #72490d);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebaf56), color-stop(100%, #72490d));
-  background-image: -webkit-linear-gradient(top, #ebaf56, #72490d);
-  background-image: -o-linear-gradient(top, #ebaf56, #72490d);
-  background-image: linear-gradient(#ebaf56, #72490d);
-  border-color: #72490d #72490d hsl(36, 79%, 15.5%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b16943", endColorstr="#a2613d");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#b16943), to(#a2613d));
+  background-image: -moz-linear-gradient(top, #b16943, #a2613d);
+  background-image: -ms-linear-gradient(top, #b16943, #a2613d);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b16943), color-stop(100%, #a2613d));
+  background-image: -webkit-linear-gradient(top, #b16943, #a2613d);
+  background-image: -o-linear-gradient(top, #b16943, #a2613d);
+  background-image: linear-gradient(#b16943, #a2613d);
+  border-color: #a2613d #a2613d hsl(21, 45%, 43%);
   color: #fff !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.06);
   -webkit-font-smoothing: antialiased;
 }
 
 .btn-custom:hover {
-    color: #72370d !important;
+    background: #72370d !important;
 }
+
+.btn-custom:hover {
+    color: #000000 !important;
+}
+
+/*--Special Paddings/Margins/text--*/
+
+.general-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*--Footer--*/
+footer {
+    background-color: #bb9228ad;
+    color: #fff;
+    min-height: 100px;
+    margin:0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
+.info i {
+    
+}
+
+a {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #a3613e;
+
 .services-container {}
 
 .portfolio-container {}

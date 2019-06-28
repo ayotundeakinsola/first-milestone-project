@@ -64,7 +64,7 @@ In this section, feedback from customers are posted for potential customers to r
 #### 3.6 Contact 
 The contact section is meant for users who want to get in touch with the makeup artist.
 
-## Features Left to Implement
+### Features Left to Implement
 In the future:
  
 * The images in the portfolio section should be animated
@@ -76,26 +76,18 @@ In the future:
 
 # Technologies Used
 
-Technologies        | Website
-------------------- | -------------
-HTML                | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
-CSS                 | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark")
-Icons               | [Font Awesome](https://www.w3schools.com/ "Font Awesome")
-Jquery              |                                                                                                                                                                                                                                          
-Javascript          |
-Font                | [Google Fonts](https://fonts.google.com/ "Google Fonts")
-Validation Service  | [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "CSS Validation Service"), [Markup Validation Service](https://validator.w3.org/#validate_by_input "Markup Validation Service")
+| Technologies       | Website                                                                                                                                                                                                              | Comments                                                                                                                |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| HTML               | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")                                                                                                   |  I used these websites to check  for proper syntax for my project                                                       |
+| CSS                | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark")                                                                                         |  I used this website to check for different ways to style my CSS.                                                        |
+| Icons              | [Font Awesome](https://www.w3schools.com/ "Font Awesome"), [Flaticon](https://www.flaticon.com/ "Flaticon")                                                                                                          |  I used these websites to download the icons for my project.                                                             |
+| JQuery             | [JQuery](https://jquery.com/ "JQuery")                                                                                                                                                                               |  I used it to to simplify HTML DOM tree traversal, manipulation, as well as CSS animation.                               |
+| Javascript         | [Javascript](https://www.javascript.com/ "Javascript")                                                                                                                                                               |  I used this programming language as it enables my page to be responsive and it is an essential part of web development. |
+| Font               | [Google Fonts](https://fonts.google.com/ "Google Fonts")                                                                                                                                                             |  It is an open source designer web font and I used it to design the typography in my project.                            |
+| Validation Service | [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "CSS Validation Service"), [Markup Validation Service](https://validator.w3.org/#validate_by_input "Markup Validation Service")      |  I used both the HTML & CSS Validator to check the validity of my web documents.                                         |
+| Bootstrap          | [Bootstrap](https://getbootstrap.com/ "Bootstrap")                                                                                                                                                                   |  I used this open source toolkit to develop my HTML,CSS and JS.                                                          |
+| Tables Generator   | [Tables Generator](https://www.tablesgenerator.com/ "Tables Generator")                                                                                                                                              |       I used this website to generate tables for my README.md file.                                                      |
 
-| Technologies       | Website                                                                                                                                                                                                              |
-|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| HTML               | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")                                                                                                   |
-| CSS                | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark")                                                                                         |
-| Icons              | [Font Awesome](https://www.w3schools.com/ "Font Awesome")                                                                                                                                                            |
-| JQuery             | [JQuery](https://jquery.com/ "JQuery")                                                                                                                                                                               |
-| Javascript         | [Javascript](https://www.javascript.com/ "Javascript")                                                                                                                                                               |
-| Font               | [Google Fonts](https://fonts.google.com/ "Google Fonts")                                                                                                                                                             |
-| Validation Service | [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "CSS Validation Service"), [Markup Validation Service](https://validator.w3.org/#validate_by_input "Markup Validation Service")      |
-| Bootstrap          | [Bootstrap](https://getbootstrap.com/ "Bootstrap")                                                                                                                                                                   |
 
 # Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -127,13 +119,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 # Credits
 
-The makeup icon in the services section was made by Surang from www.flaticon.com
-The hairstyle icon in the services section was made by dinosoftlabs from www.flaticon.com
-The diploma icon in the services section was made by Smashicons from www.flaticon.com
+### Content
+* The text in the About section was provided by the Makeup Arstist.
 
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+* The text in the price section was gotten from <http://www.judyartofmakeup.nl/nl/>
+
+* The text in the reviews section was provided by 3 different customers.
+
+*  The form in the contact section was made using bootstrap forms. 
+
+### Media
+* The image in the home section was provided by the make up artist. 
+
+* The makeup icon in the services section was made by Surang from <www.flaticon.com>
+
+* The hairstyle icon in the services section was made by dinosoftlabs <from www.flaticon.com>
+
+* The diploma icon in the services section was made by Smashicons from <www.flaticon.com>
+
+* The images in the Portfolio section was gotten from <https://www.melaninwonder.com/>
+
+# Acknowledgements
+I received inspiration for this project from this website <http://www.judyartofmakeup.nl/nl/>

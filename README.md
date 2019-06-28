@@ -76,13 +76,26 @@ In the future:
 
 # Technologies Used
 
-Technologies  | Website
-------------- | -------------
-HTML          | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
-CSS           | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark"),
+Technologies        | Website
+------------------- | -------------
+HTML                | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
+CSS                 | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark")
+Icons               | [Font Awesome](https://www.w3schools.com/ "Font Awesome")
+Jquery              |                                                                                                                                                                                                                                          
+Javascript          |
+Font                | [Google Fonts](https://fonts.google.com/ "Google Fonts")
+Validation Service  | [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "CSS Validation Service"), [Markup Validation Service](https://validator.w3.org/#validate_by_input "Markup Validation Service")
 
-
-
+| Technologies       | Website                                                                                                                                                                                                              |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| HTML               | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")                                                                                                   |
+| CSS                | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark")                                                                                         |
+| Icons              | [Font Awesome](https://www.w3schools.com/ "Font Awesome")                                                                                                                                                            |
+| JQuery             | [JQuery](https://jquery.com/ "JQuery")                                                                                                                                                                               |
+| Javascript         | [Javascript](https://www.javascript.com/ "Javascript")                                                                                                                                                               |
+| Font               | [Google Fonts](https://fonts.google.com/ "Google Fonts")                                                                                                                                                             |
+| Validation Service | [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input "CSS Validation Service"), [Markup Validation Service](https://validator.w3.org/#validate_by_input "Markup Validation Service")      |
+| Bootstrap          | [Bootstrap](https://getbootstrap.com/ "Bootstrap")                                                                                                                                                                   |
 
 # Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.

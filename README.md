@@ -18,46 +18,70 @@ the goal is fot it to be hosted and actually be the official website for my girl
 I personally feel that by buildong a website for my girlfriend, it would boost her business image online and also attract more customers.
 
 
-## Wireframe ##
+#### Wireframe
 You can find the link to the wireframe here: 
 <https://1drv.ms/w/s!AqARRU4jO5elrGuPVFHl-wEg-BBK?e=ng42BX>
 
 
-## User Stories ##
+#### User Stories
 
-*As a customer
+* As a customer I want to be able to view a selection of various make up services.
+
+* As as customer I would like to know what type of services are available.
+
+* As a potential customer, I would also want to know the price which can influence my decision.
+
+* As a potential customer, I would want to see a portfolio/sample of previous make up services rendered.
+
+* As a potential customer, I would love to read about the reviews of some customers who have used R'beauty services.
+
+* As the make up artist, I want to showcase some of my previous works so both customers and potential customers can see how good my services are
+ 
+* As the make up artist, I want to provide my social media links so that customers can follow my updates
 
 
 # Features
 
-3.1 Home Page
-3.2 Services
-3.3 Portfolio
-3.4 About
-3.5 Prices
-3.5 Reviews
-3.6 Contact
+#### 3.1 Home Page 
+Here is basically the main page when a user clicks on R'beauty.com. This section should summarise either in words or details what the
+website is all about. The first intro to the website should tell what kind of website it is. 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#### 3.2 Services 
+The services section shows the various kind of services offered by R'beauty. It will display using icons the services offered by R'beauty.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#### 3.3 Portfolio
+The portfolio section shows the previous works of the Makeup artist. Here you can see the different types of makeup styles that R'beauty has carried out.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#### 3.4 About 
+In this section, the Makeup artist gives a brief overview of how  the business started and it also gives an insight to the way the business is structured.
 
-Features Left to Implement
-Another feature idea
+#### 3.5 Prices
+In this section, the various prices for the makeup services are listed.
 
-# Customers: 
-I want to find R'beauty online when I search on google
+#### 3.5 Reviews
+In this section, feedback from customers are posted for potential customers to read. This section is meant to serve as a way of confirming how good the makeup artist is. 
+
+#### 3.6 Contact 
+The contact section is meant for users who want to get in touch with the makeup artist.
+
+## Features Left to Implement
+In the future:
+ 
+* The images in the portfolio section should be animated
+
+* The icons in the services section should actually lead to another page
+
+* There submit button should have a modal class so when clicked it brings out a pop-up
+
 
 # Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+Technologies  | Website
+------------- | -------------
+HTML          | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
+CSS           | [W3Schools](https://www.w3schools.com/ "W3Schools"), [Charliepark](https://charliepark.org/bootstrap_buttons/ "Charliepark"),
+
+
 
 
 # Testing

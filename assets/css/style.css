@@ -184,7 +184,7 @@ body {
 .general-sub {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    color: #fafafa;
+    color: black;
     
 }
 
@@ -200,23 +200,25 @@ footer {
     margin:0;
 }
 
+footer.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
-
-.general-sub {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
 
 .info i {
     
 }
 
 a {
-    color: #fafafa;
+    color: #000;
     text-decoration: none;
     background-color: transparent;
 }

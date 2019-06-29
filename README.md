@@ -20,7 +20,7 @@ I personally feel that by buildong a website for my girlfriend, it would boost h
 
 #### Wireframe
 You can find the link to the wireframe here: 
-<https://1drv.ms/w/s!AqARRU4jO5elrGuPVFHl-wEg-BBK?e=ng42BX>
+[Wireframe](https://1drv.ms/w/s!AqARRU4jO5elrGuPVFHl-wEg-BBK?e=ng42BX "Wireframe")
 
 
 #### User Stories
@@ -101,9 +101,9 @@ In the future:
 
 I used the following webistes to validate both my HTML and CSS files respectively.
 
-* <https://validator.w3.org/#validate_by_input>
+* [HTML-Validator](https://validator.w3.org/#validate_by_input "HTML-Validator")
 
-* <https://jigsaw.w3.org/css-validator/#validate_by_input>
+* [CSS-validator](https://jigsaw.w3.org/css-validator/#validate_by_input "CSS-validator")
 
 The HTML validation service  helps check the validity of Web documents. When I used this service, it only brought out error messages for the form 
 in the contact section. I have tried correcting the bugs but it doesn't seem to work. On the front end, the codes for the forms seems to be working
@@ -158,34 +158,109 @@ I am fully confident in the style sheet.
               1. When the makeup artist arives on the webpage, the makeup artist lookout for the navigation menu
               2. In the navigation menu the makeup artist will see the logo for the business.
 
+### Manual Testing
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#####  Home Page:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+1. Navigation bar 
+              1. Go to the Home Page from a desktop.
+              2. Inspect all links, icons, background and content in the navigation menu to ensure they are appearing correctly on the page.
+              3. Move the cusor to the top-right section of the navigation bar, hover over each link and verify that the hover affects are working (i.e. background color changes to brown, font color to #964433).
+              4. Change the screen size to mobile view to ensure that the navigation bar is responsive and all the in line links are packed into the toggler icon.
+              5. Check that the toggler icon is properly styled and at the right position.
+              6. To test the smooth scroll and also to verify that the links are working do the following:
+                    1. Click on "Home" link and verify that it stays on the Home page
+                    2. Click on "services" link and verify that it scrolls smoothly to the services section.
+                    3. Click on "portfolio" link and verify that it scrolls smoothly to the portfolio section.
+                    4. Click on "about" link and verify that it scrolls smoothly to the about section.
+                    5. Click on "prices" link and verify that it scrolls smoothly to the prices section.
+                    6. Click on "contact" link and verify that it scrolls smoothly to the contact section.
+                    7. Repeat this same steps on a mobile view
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+2. Services section
+              1. Scroll down to the services section or click on the services link in the navigation bar on a desktop view.
+              2. check the services heading is bold and centrally alligned in the container
+              3. Inspect the icons are properly placed within their columns and they are centrally alligned.
+              4. Check that the text under the icon is properly placed.
+              5. Ensure that the icons section occupies the full width of the container and not the services container.
+              6. Check the padding of the Heading
+              7. Repeat this same steps on a mobile view
+
+3. Portfolio section
+              1. Scroll down to the portfolio section or click on the services link in the navigation bar on a desktop view.
+              2. check the portfolio heading is bold and centrally alligned in the container
+              3. check the images are properly placed within their columns and they are properly alligned.
+              4. Check the padding of the images
+              5. Repeat this same steps on a mobile view
+
+4. About section
+              1. Scroll down to the about section or click on the about link in the navigation bar on a desktop view.
+              2. check the about heading is bold and centrally alligned in the container
+              3. check that the content in the about section are alligned properly
+              4. Check the padding of the images
+              5. Repeat this same steps on a mobile view
+
+5. Prices section
+              1. Scroll down to the prices section or click on the prices link in the navigation bar on a desktop view.
+              2. check the prices heading is bold and centrally alligned in the container
+              3. check that the table in the prices section is is in line with the theme of the website.
+              4. Repeat this same steps on a mobile view
+
+6. Reviews section
+              1. Scroll down to the reviews section or click on the reviews link in the navigation bar on a desktop view.
+              2. check the reviews heading is bold and centrally alligned in the container
+              3. check that the content in the about section are alligned properly
+              4. Repeat this same steps on a mobile view
+7. Contact section
+              1. Scroll down to the contact section or click on the contact link in the navigation bar on a desktop view.
+              2. check the contact heading is bold and centrally alligned in the container
+              3. Try to submit the empty form and verify that an error message about the required fields appears
+              4. Try to submit the form with an invalid email address and verify that a relevant error message appears
+              5. Repeat this same steps on a mobile view
+
+8. Footer
+              1. Scroll down to the footer section.
+              2. check that the background color is in line with the theme of the website
+              3. check that the content in the about section are alligned properly
+              4. Check the padding of the of the contents
+              5. Repeat this same steps on a mobile view
+
+The website worked perfectly on other screen sizes and there was no issue with responsiveness.
+
+##### Bugs
+
+1. The background image in the mobile view is too big. I have tried changing it but there not enough time to find a solution
+2. When reduced to mobile view the responsiveness a times doesn't work until when refreshed. I do not know what causes this to happen. 
+3. 
+
 
 # Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+### How to deploy the  GitHub Pages from its GitHub repository
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Log into GitHub.
+2. Select the repository related to this project: ayotundeakinsola/first-milestone-project.
+3. In the menu click on settings and scroll down to the GitHub Pages section.
+4. From the "Source" dropdown menu, select "Master Branch" and click "Save" 
+5. A pop-up message "Your site is ready to be published at https://username.github.io/Bootstrap/" will appear under Github Pages
+6. The page will automatically refresh and the website is now deployed.
+7. Once your website launches you can retest it to ensure that all the sections on the pages are working as stated in the testing section
+
+### How to clone / run this project locally
+
+1. On GitHub, navigate to the main page of the repository.
+2. Under the repository name, click Clone or download.
+3. In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+4. Open Git Bash.
+5. Type git clone, and then paste the URL you copied in Step 2.
+6. Press Enter. Your local clone will be created.
 
 # Credits
 
 ### Content
 * The text in the About section was provided by the Makeup Arstist.
 
-* The text in the price section was gotten from: <http://www.judyartofmakeup.nl/nl/>
+* The text in the price section was gotten from: [judyartofmakeup](http://www.judyartofmakeup.nl/nl/ "judyartofmakeup")
 
 * The text in the reviews section was provided by 3 different customers.
 
@@ -194,13 +269,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 * The image in the home section was provided by the make up artist. 
 
-* The makeup icon in the services section was made by Surang from: <www.flaticon.com>
+* The makeup icon in the services section was made by Surang from: [Flaticon](www.flaticon.com "Flaticon")
 
-* The hairstyle icon in the services section was made by dinosoftlabs: <from www.flaticon.com>
+* The hairstyle icon in the services section was made by dinosoftlabs: [Flaticon](www.flaticon.com "Flaticon")
 
-* The diploma icon in the services section was made by Smashicons from: <www.flaticon.com>
+* The diploma icon in the services section was made by Smashicons from: [Flaticon](www.flaticon.com "Flaticon")
 
-* The images in the Portfolio section was gotten from: <https://www.melaninwonder.com/>
+* The images in the Portfolio section was gotten from: [Melaninwonder](https://www.melaninwonder.com/ "Melaninwonder")
 
 # Acknowledgements
-I received inspiration for this project from this website: <http://www.judyartofmakeup.nl/nl/>
+I received inspiration for this project from this website: [judyartofmakeup](http://www.judyartofmakeup.nl/nl/ "judyartofmakeup")

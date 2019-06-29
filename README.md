@@ -27,7 +27,13 @@ You can find the link to the wireframe here:
 
 * As a customer I want to be able to view a selection of various make up services.
 
-* As as customer I would like to know what type of services are available.
+* As as customer I would want to contact the makeup artist.
+
+* As a potential customer and paying customer I want to see the address of the shop  
+
+* As a potential customer and paying customer I want to see the telephone contact of the shop
+
+* As a potential customer and paying customer I want to contact the makeup artist
 
 * As a potential customer, I would also want to know the price which can influence my decision.
 
@@ -35,9 +41,11 @@ You can find the link to the wireframe here:
 
 * As a potential customer, I would love to read about the reviews of some customers who have used R'beauty services.
 
-* As the make up artist, I want to showcase some of my previous works so both customers and potential customers can see how good my services are
+* As the make up artist, I want to know more about the makeup artist
  
 * As the make up artist, I want to provide my social media links so that customers can follow my updates
+
+* As the makeup artist, I want my logo on to be visible on my website
 
 
 # Features
@@ -90,11 +98,66 @@ In the future:
 
 
 # Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I used the following webistes to validate both my HTML and CSS files respectively.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+* <https://validator.w3.org/#validate_by_input>
+
+* <https://jigsaw.w3.org/css-validator/#validate_by_input>
+
+The HTML validation service  helps check the validity of Web documents. When I used this service, it only brought out error messages for the form 
+in the contact section. I have tried correcting the bugs but it doesn't seem to work. On the front end, the codes for the forms seems to be working
+very fine but on the other hand, the code seems to be working fine. Perhaps in future testing, I would find a way to solve it. 
+
+Also, the CSS validation service helps check Cascading Style Sheets (CSS). When I used this service, it reported no error. The testing went well and
+I am fully confident in the style sheet.
+
+### Testing user stories from the UX section 
+
+1. As a customer I want to be able to view a selection of various make up services.
+              1. When the customer arives on the webpage, he/she can see the navigation bar with several links.
+              2. Within the navigation link you can click on the services link and it will smoothly scrool to the services section on the page.
+
+2. As as customer I would want to contact the makeup artist.
+              1. When the customer arives on the webpage, he/she can see the navigation bar with several links.
+              2.  Within the navigation link you can click on the contact link and it will smoothly scrool to the contact section on the page.
+              3.  The customer can fill the form and submit it. 
+
+3. As a potential customer and paying customer I want to see the address of the shop. 
+              1. When the customer arives on the webpage, the customer can scroll down to the footer section.
+              2. In the footer section the customer can clearly see  the address.
+              
+4. As a potential customer and paying customer I want to see the telephone contact of the shop.
+              1. When the customer arives on the webpage, the customer can scroll down to the footer section.
+              2. In the footer section the customer can clearly see  the telephone number of the makeup artist. 
+
+5. As a potential customer, I want to know the price of the services rendered. 
+              1. When the customer arives on the webpage, he/she can see the navigation bar with several links.
+              2. Within the navigation link you can click on the prices link and it will smoothly scrool to the price section on the page.
+              3. Here you see a table of prices for the different services rendered.
+            
+6. As a potential customer, I would want to see a portfolio of  make up services . 
+              1. When the customer arives on the webpage, he/she can see the navigation bar with several links.
+              2. Within the navigation link you can click on the portfolio link and it will smoothly scrool to the portfolio section on the page.
+
+7. As a potential customer, I would love to read about the reviews of some customers who have used R'beauty services. 
+              1. When the customer arives on the webpage, he/she can see the navigation bar with several links.
+              2. Within the navigation link you can click on the reviews link and it will smoothly scrool to the reviews section on the page.
+              3. Here you can see 3 specially picked out reviews from previous customers.
+
+8. As a potential customer, I want to know more about the makeup artist 
+              1. When the customer arives on the webpage, he/she can see the navigation bar with several links.
+              2. Within the navigation link you can click on the about link and it will smoothly scrool to the about section on the page.
+              3. Here the interested client can read more about the makeup artist.
+
+9. As the make up artist, I want to provide my social media links so that customers can follow my updates 
+              1. When the makeup artist arives on the webpage, the makeup artist can scroll down to the footer section.
+              2. In the footer section the makeup artist will see the social media links for the business.
+
+10. As the makeup artist, I want my logo on to be visible on my website 
+              1. When the makeup artist arives on the webpage, the makeup artist lookout for the navigation menu
+              2. In the navigation menu the makeup artist will see the logo for the business.
+
 
 Contact form:
 Go to the "Contact Us" page
@@ -122,7 +185,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 * The text in the About section was provided by the Makeup Arstist.
 
-* The text in the price section was gotten from <http://www.judyartofmakeup.nl/nl/>
+* The text in the price section was gotten from: <http://www.judyartofmakeup.nl/nl/>
 
 * The text in the reviews section was provided by 3 different customers.
 
@@ -131,13 +194,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 * The image in the home section was provided by the make up artist. 
 
-* The makeup icon in the services section was made by Surang from <www.flaticon.com>
+* The makeup icon in the services section was made by Surang from: <www.flaticon.com>
 
-* The hairstyle icon in the services section was made by dinosoftlabs <from www.flaticon.com>
+* The hairstyle icon in the services section was made by dinosoftlabs: <from www.flaticon.com>
 
-* The diploma icon in the services section was made by Smashicons from <www.flaticon.com>
+* The diploma icon in the services section was made by Smashicons from: <www.flaticon.com>
 
-* The images in the Portfolio section was gotten from <https://www.melaninwonder.com/>
+* The images in the Portfolio section was gotten from: <https://www.melaninwonder.com/>
 
 # Acknowledgements
-I received inspiration for this project from this website <http://www.judyartofmakeup.nl/nl/>
+I received inspiration for this project from this website: <http://www.judyartofmakeup.nl/nl/>

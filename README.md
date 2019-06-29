@@ -227,12 +227,10 @@ I am fully confident in the style sheet.
 
 The website worked perfectly on other screen sizes and there was no issue with responsiveness.
 
-##### Bugs
+#### Bugs
 
 1. The background image in the mobile view is too big. I have tried changing it but there not enough time to find a solution
 2. When reduced to mobile view the responsiveness a times doesn't work until when refreshed. I do not know what causes this to happen. 
-3. 
-
 
 # Deployment
 
